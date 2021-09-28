@@ -1,0 +1,131 @@
+body {
+    background: #dad8d8;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    background-image: url(img/qwe.jpg);
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: flex;
+    font-stretch: ultra-expanded;
+    font-size: 50px;
+}
+
+p {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#first {
+    margin-top: 10px;
+    color: #2be606;
+    font-size: 25px;
+}
+
+#second {
+    color: #ffffff;
+}
+
+#third {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dados {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#enter {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #04A1BF;
+    background-color: #2bd266;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    align-items: center;
+}
+
+#enter:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+#enter img {
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    padding: 48px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    background: #be0707;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+    align-items: center;
+}
+
+li:hover {
+    background: #db4949;
+}
+
+li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right !important;
+    color: #000000;
+    font-weight: 800;
+    justify-items: right;
+    align-self: center;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 50%;
+    padding-top: 18px;
+    height: 40px;
+    border: none;
+    margin: 0px;
+    text-align: center;
+}
+
+.done {
+    background: #03da26 !important;
+    color: #000000;
+}
+
+.delete {
+    display: none;
+}
